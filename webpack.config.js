@@ -30,15 +30,3 @@ function buildConfig(wantedEnv) {
 }
 
 module.exports = buildConfig(env);
-
-
-module.exports = {
-  module: {
-    loaders: [
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
-      }
-    ]
-  }
-}
